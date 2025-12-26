@@ -1,0 +1,186 @@
+{
+  "products": [
+    {
+      "id": "NPS100",
+      "sku": "NPS100-001",
+      "category": "sensors",
+      "subcategory": "pressure-sensors",
+      "series": "NPS100系列",
+      "name": "高精度MEMS压力传感器",
+      "shortDescription": "适用于汽车电子和工业控制的高可靠性压力传感器芯片",
+      "longDescription": "NPS100系列是基于先进MEMS技术的高精度压力传感器芯片，专为汽车电子和工业控制应用设计。该产品具有卓越的温度稳定性和长期可靠性，满足AEC-Q100 Grade 1车规标准。",
+      "keyFeatures": [
+        "测量范围：0-100kPa，可选0-700kPa",
+        "精度：±0.1%FS（典型值）",
+        "工作温度：-40°C 至 +125°C",
+        "数字输出：I2C/SPI接口，16位分辨率",
+        "模拟输出：0.5-4.5V比例输出",
+        "超低功耗：2.5mA工作电流，1μA待机电流",
+        "小尺寸封装：LGA-8 (3mm x 3mm x 1mm)"
+      ],
+      "applications": [
+        "汽车胎压监测系统(TPMS)",
+        "工业过程控制",
+        "医疗设备压力监测",
+        "暖通空调(HVAC)系统",
+        "无人机高度计",
+        "消费电子产品"
+      ],
+      "technicalSpecifications": {
+        "电气特性": {
+          "供电电压": "3.3V ±10%",
+          "工作电流": "2.5mA（典型值）",
+          "待机电流": "1μA（最大值）",
+          "输出接口": "I2C（400kHz快速模式），SPI（10MHz），模拟输出",
+          "分辨率": "16位数字输出，12位模拟输出"
+        },
+        "性能参数": {
+          "测量范围": ["0-100kPa", "0-200kPa", "0-700kPa（可选）"],
+          "精度": "±0.1%FS（-10°C 至 +85°C）",
+          "非线性度": "±0.05%FS（典型值）",
+          "迟滞": "±0.02%FS（最大值）",
+          "重复性": "±0.01%FS（典型值）"
+        },
+        "环境特性": {
+          "工作温度": "-40°C 至 +125°C",
+          "存储温度": "-55°C 至 +150°C",
+          "ESD保护": "±8kV HBM，±1kV CDM",
+          "湿度范围": "0-100% RH（非冷凝）"
+        },
+        "机械特性": {
+          "封装类型": "LGA-8",
+          "尺寸": "3.0mm × 3.0mm × 1.0mm",
+          "引脚间距": "0.5mm",
+          "材料": "硅基MEMS，陶瓷封装"
+        }
+      },
+      "certifications": ["AEC-Q100 Grade 1", "ISO/TS 16949", "RoHS Compliant", "REACH Compliant"],
+      "developmentTools": [
+        {"name": "评估板NPS100-EVB", "description": "快速原型开发评估板", "partNumber": "NPS100-EVB-01"},
+        {"name": "软件开发套件", "description": "包含驱动程序和应用示例", "version": "SDK v2.1.0"},
+        {"name": "仿真模型", "description": "PSpice和LTspice仿真模型", "format": "SPICE模型"}
+      ],
+      "documentation": [
+        {"type": "数据手册", "title": "NPS100数据手册v2.3", "url": "/documents/datasheets/NPS100_DS_v2.3.pdf", "size": "1.2MB", "date": "2025-03-15"},
+        {"type": "应用笔记", "title": "AN001 - 在TPMS中的应用", "url": "/documents/application-notes/AN001_TPMS_Application.pdf", "size": "850KB", "date": "2024-11-20"},
+        {"type": "参考设计", "title": "RD012 - 工业压力变送器", "url": "/documents/reference-designs/RD012_Industrial_Transmitter.zip", "size": "3.5MB", "date": "2025-01-10"},
+        {"type": "白皮书", "title": "汽车压力传感器的可靠性设计", "url": "/documents/white-papers/WP005_Automotive_Reliability.pdf", "size": "2.1MB", "date": "2024-09-05"}
+      ],
+      "orderingInformation": [
+        {"partNumber": "NPS100-001", "description": "0-100kPa，I2C接口，工业级", "packaging": "卷带，每卷1000片", "moq": "1000"},
+        {"partNumber": "NPS100-002", "description": "0-100kPa，SPI接口，汽车级", "packaging": "卷带，每卷1000片", "moq": "1000"},
+        {"partNumber": "NPS100-003", "description": "0-700kPa，模拟输出，工业级", "packaging": "管装，每管50片", "moq": "500"}
+      ],
+      "status": "量产中",
+      "releaseDate": "2024-03-15",
+      "lastUpdated": "2025-10-26",
+      "rohsStatus": "符合",
+      "leadTime": "8-12周",
+      "image": {
+        "thumbnail": "/assets/images/products/sensors/nps100/thumbnail.jpg",
+        "main": "/assets/images/products/sensors/nps100/main.jpg",
+        "diagram": "/assets/images/products/sensors/nps100/diagram.png",
+        "application": "/assets/images/products/sensors/nps100/application.jpg",
+        "package": "/assets/images/products/sensors/nps100/package.jpg"
+      },
+      "relatedProducts": ["NPS200", "NPS300", "NTS100"],
+      "tags": ["压力传感器", "MEMS", "汽车电子", "工业控制", "AEC-Q100", "高精度"]
+    },
+    {
+      "id": "NPS200",
+      "sku": "NPS200-001",
+      "category": "sensors",
+      "subcategory": "pressure-sensors",
+      "series": "NPS200系列",
+      "name": "超低功耗数字压力传感器",
+      "shortDescription": "专为电池供电设备设计的超低功耗压力传感器",
+      "longDescription": "NPS200系列是专为可穿戴设备和物联网应用设计的超低功耗数字压力传感器，在保持高精度的同时显著降低了功耗。",
+      "keyFeatures": [
+        "超低功耗：1.8μA @ 1Hz采样率",
+        "压力范围：300-1100hPa",
+        "内置温度补偿",
+        "FIFO存储，减少主机处理负载",
+        "I2C和SPI数字接口"
+      ],
+      "status": "量产中",
+      "image": {
+        "thumbnail": "/assets/images/products/sensors/nps200/thumbnail.jpg"
+      },
+      "tags": ["低功耗", "可穿戴", "物联网", "数字传感器"]
+    },
+    {
+      "id": "NTS100",
+      "sku": "NTS100-001",
+      "category": "sensors",
+      "subcategory": "temperature-sensors",
+      "series": "NTS100系列",
+      "name": "高精度数字温度传感器",
+      "shortDescription": "±0.1°C精度数字温度传感器，适用于医疗和工业应用",
+      "keyFeatures": [
+        "精度：±0.1°C（-10°C 至 +85°C）",
+        "分辨率：0.0625°C",
+        "工作温度：-55°C 至 +150°C",
+        "I2C接口，多地址支持",
+        "报警输出功能"
+      ],
+      "status": "量产中",
+      "tags": ["温度传感器", "高精度", "医疗", "工业"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "sensors",
+      "name": "传感器",
+      "description": "压力、温度、湿度、磁力等各类传感器产品",
+      "icon": "sensor-icon.svg",
+      "productCount": 24,
+      "subcategories": [
+        {
+          "id": "pressure-sensors",
+          "name": "压力传感器",
+          "description": "MEMS压力传感器，适用于汽车、工业、医疗等应用",
+          "productCount": 8
+        },
+        {
+          "id": "temperature-sensors",
+          "name": "温度传感器",
+          "description": "数字和模拟温度传感器，高精度测量",
+          "productCount": 6
+        },
+        {
+          "id": "mems-sensors",
+          "name": "MEMS传感器",
+          "description": "微机电系统传感器，包括加速度计、陀螺仪等",
+          "productCount": 5
+        },
+        {
+          "id": "environmental-sensors",
+          "name": "环境传感器",
+          "description": "湿度、气体、空气质量传感器",
+          "productCount": 5
+        }
+      ]
+    },
+    {
+      "id": "signal-chain",
+      "name": "信号链",
+      "description": "放大器、ADC/DAC、接口等信号处理芯片",
+      "icon": "signal-chain-icon.svg",
+      "productCount": 18
+    },
+    {
+      "id": "isolation",
+      "name": "隔离产品",
+      "description": "数字隔离器、隔离栅极驱动器、隔离ADC等",
+      "icon": "isolation-icon.svg",
+      "productCount": 12
+    },
+    {
+      "id": "power-management",
+      "name": "电源管理",
+      "description": "电压调节器、电源监控、电池管理等芯片",
+      "icon": "power-management-icon.svg",
+      "productCount": 16
+    }
+  ]
+}

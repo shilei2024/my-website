@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC科技有限公司 - 智能解决方案专家</title>
+    <title>未来半导体科技有限公司 - 专业的芯片解决方案</title>
+    <meta name="description" content="未来半导体 - 专业的传感器、隔离、功率驱动解决方案提供商">
+    <meta name="keywords" content="半导体,传感器,信号链,隔离产品,电源管理,芯片解决方案">
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "未来半导体科技有限公司",
+        "url": "https://www.futuresemi.com",
+        "logo": "https://www.futuresemi.com/assets/images/logos/main-logo.svg",
+        "description": "专业的传感器、隔离、功率驱动芯片解决方案提供商",
+        "founder": {
+            "@type": "Person",
+            "name": "张建国"
+        },
+        "foundingDate": "2016-08-15",
+        "numberOfEmployees": "856",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "上海市浦东新区张江高科技园区科苑路399号",
+            "addressLocality": "上海",
+            "postalCode": "201203",
+            "addressCountry": "CN"
+        }
+    }
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -22,7 +49,7 @@
                 <!-- Logo -->
                 <a href="#" class="logo">
                     <i class="fas fa-microchip"></i>
-                    <span>ABC科技</span>
+                    <span>未来半导体</span>
                 </a>
 
                 <!-- 桌面端导航菜单 -->
@@ -32,18 +59,33 @@
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">产品中心</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/products/sensors/">传感器</a></li>
+                            <li><a href="/products/signal-chain/">信号链</a></li>
+                            <li><a href="/products/isolation/">隔离产品</a></li>
+                            <li><a href="/products/power-management/">电源管理</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">行业应用</a>
+                        <a href="#" class="nav-link">新闻活动</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/news/company-news/">公司新闻</a></li>
+                            <li><a href="/news/industry-news/">行业动态</a></li>
+                            <li><a href="/news/events/">活动展会</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">关于我们</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about/company-profile/">公司简介</a></li>
+                            <li><a href="/about/technology-innovation/">技术创新</a></li>
+                            <li><a href="/about/quality-reliability/">质量与可靠性</a></li>
+                            <li><a href="/about/careers/">人才招聘</a></li>
+                            <li><a href="/about/contact/">联系我们</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">新闻动态</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">联系我们</a>
+                        <a href="#" class="nav-link">技术支持</a>
                     </li>
                 </ul>
 
@@ -79,23 +121,23 @@
             <div class="slider-container">
                 <div class="slider-slide active">
                     <div class="slide-content">
-                        <h1>ABC科技 - 智能解决方案专家</h1>
-                        <p>为您提供创新、可靠的智能化解决方案</p>
-                        <a href="#" class="btn-primary">了解更多</a>
+                        <h1>感知驱动未来</h1>
+                        <p>为数字世界和现实世界的连接提供先进的芯片解决方案</p>
+                        <a href="/products/" class="btn-primary">探索产品</a>
                     </div>
                 </div>
                 <div class="slider-slide">
                     <div class="slide-content">
-                        <h1>专业团队支持</h1>
-                        <p>拥有丰富的行业经验和专业知识</p>
-                        <a href="#" class="btn-primary">查看产品</a>
+                        <h1>创新半导体技术</h1>
+                        <p>专注于传感器、信号链、隔离、电源管理等核心技术</p>
+                        <a href="/about/technology-innovation/" class="btn-primary">了解技术</a>
                     </div>
                 </div>
                 <div class="slider-slide">
                     <div class="slide-content">
-                        <h1>全球服务网络</h1>
-                        <p>为全球客户提供优质的产品和服务</p>
-                        <a href="#" class="btn-primary">联系我们</a>
+                        <h1>车规级芯片解决方案</h1>
+                        <p>AEC-Q100认证，满足汽车电子严苛要求</p>
+                        <a href="/products/sensors/" class="btn-primary">查看产品</a>
                     </div>
                 </div>
                 
@@ -120,61 +162,89 @@
         <section class="products-section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-subtitle">核心产品</h2>
-                    <h3 class="section-title">智能化解决方案与服务</h3>
+                    <h2 class="section-subtitle">产品中心</h2>
+                    <h3 class="section-title">聚焦传感器、信号链、电源管理，提供全面的芯片解决方案</h3>
                     <p class="section-description">
-                        ABC科技专注于智能化技术研发，提供从硬件到软件的全栈解决方案。我们以创新为驱动，以客户为中心，致力于为企业数字化转型提供强大支持。
+                        未来半导体专注于模拟与混合信号芯片的研发与销售，产品涵盖传感器、信号链、隔离、接口、功率、驱动、电源管理等多个领域。
                     </p>
                 </div>
 
                 <div class="products-grid">
-                    <!-- 产品卡片 1 -->
+                    <!-- 传感器类别 -->
                     <div class="product-card">
                         <div class="product-icon">
-                            <i class="fas fa-sensor"></i>
+                            <i class="fas fa-wave-square"></i>
                         </div>
-                        <h4 class="product-title">智能传感器系统</h4>
+                        <h4 class="product-title">传感器</h4>
                         <p class="product-description">
-                            ABC科技的智能传感器系统，采用AI算法实现精准数据采集和实时分析。
+                            压力、温度、湿度、MEMS等各类传感器芯片，满足汽车、工业、消费电子等应用需求。
                         </p>
-                        <a href="#" class="product-link">了解更多 <i class="fas fa-arrow-right"></i></a>
+                        <ul class="product-features">
+                            <li>高精度压力传感器</li>
+                            <li>数字温度传感器</li>
+                            <li>环境传感器</li>
+                            <li>MEMS惯性传感器</li>
+                        </ul>
+                        <a href="/products/sensors/" class="product-link">查看全部传感器 →</a>
                     </div>
 
-                    <!-- 产品卡片 2 -->
+                    <!-- 信号链类别 -->
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h4 class="product-title">信号链</h4>
+                        <p class="product-description">
+                            放大器、ADC/DAC、接口等信号处理芯片，提供完整的信号调理解决方案。
+                        </p>
+                        <ul class="product-features">
+                            <li>精密运算放大器</li>
+                            <li>高速ADC/DAC</li>
+                            <li>接口芯片</li>
+                            <li>数据转换器</li>
+                        </ul>
+                        <a href="/products/signal-chain/" class="product-link">查看全部信号链 →</a>
+                    </div>
+
+                    <!-- 隔离产品类别 -->
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="product-title">隔离产品</h4>
+                        <p class="product-description">
+                            数字隔离器、隔离栅极驱动器等安全隔离芯片，确保系统安全可靠运行。
+                        </p>
+                        <ul class="product-features">
+                            <li>数字隔离器</li>
+                            <li>隔离栅极驱动器</li>
+                            <li>隔离ADC</li>
+                            <li>隔离电源</li>
+                        </ul>
+                        <a href="/products/isolation/" class="product-link">查看全部隔离产品 →</a>
+                    </div>
+
+                    <!-- 电源管理类别 -->
                     <div class="product-card">
                         <div class="product-icon">
                             <i class="fas fa-bolt"></i>
                         </div>
                         <h4 class="product-title">电源管理</h4>
                         <p class="product-description">
-                            高效、稳定的电源管理解决方案，提升系统性能和可靠性。
+                            电压调节器、电源监控、电池管理等电源芯片，提供高效能电源解决方案。
                         </p>
-                        <a href="#" class="product-link">了解更多 <i class="fas fa-arrow-right"></i></a>
+                        <ul class="product-features">
+                            <li>LDO线性稳压器</li>
+                            <li>DC-DC转换器</li>
+                            <li>电源监控器</li>
+                            <li>电池管理IC</li>
+                        </ul>
+                        <a href="/products/power-management/" class="product-link">查看全部电源管理 →</a>
                     </div>
-
-                    <!-- 产品卡片 3 -->
-                    <div class="product-card">
-                        <div class="product-icon">
-                            <i class="fas fa-microchip"></i>
-                        </div>
-                        <h4 class="product-title">信号处理</h4>
-                        <p class="product-description">
-                            先进的信号处理技术，确保数据传输的准确性和稳定性。
-                        </p>
-                        <a href="#" class="product-link">了解更多 <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <!-- 产品卡片 4 -->
-                    <div class="product-card">
-                        <div class="product-icon">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h4 class="product-title">驱动控制</h4>
-                        <p class="product-description">
-                            智能驱动控制系统，实现精准的运动控制和能量管理。
-                        </p>
-                        <a href="#" class="product-link">了解更多 <i class="fas fa-arrow-right"></i></a>
-                    </div>
+                </div>
+                
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="/products/" class="btn-primary">查看所有产品</a>
                 </div>
             </div>
         </section>
@@ -231,25 +301,75 @@
             </div>
         </section>
 
-        <!-- 公司数据统计 -->
-        <section class="stats-section">
+        <!-- 公司概况 -->
+        <section class="company-overview-section">
             <div class="container">
-                <div class="stats-grid">
+                <div class="section-header">
+                    <h2 class="section-subtitle">关于未来半导体</h2>
+                    <h3 class="section-title">专注于传感器、信号链、隔离、电源管理等半导体技术</h3>
+                </div>
+                
+                <div class="company-stats-grid">
                     <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">年行业经验</div>
+                        <div class="stat-number" data-counter="9" data-suffix="年">0年</div>
+                        <div class="stat-label">行业经验</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">城市服务网络</div>
+                        <div class="stat-number" data-counter="856" data-suffix="+">0+</div>
+                        <div class="stat-label">员工总数</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">专业团队</div>
+                        <div class="stat-number" data-counter="124" data-suffix="+">0+</div>
+                        <div class="stat-label">专利技术</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">1000+</div>
-                        <div class="stat-label">成功案例</div>
+                        <div class="stat-number" data-counter="500" data-suffix="+">0+</div>
+                        <div class="stat-label">服务客户</div>
+                    </div>
+                </div>
+                
+                <div class="company-intro">
+                    <p>未来半导体科技有限公司成立于2016年，总部位于上海张江高科技园区。我们专注于模拟与混合信号芯片的研发与销售，产品涵盖传感器、信号链、隔离、接口、功率、驱动、电源管理等多个领域。</p>
+                    <p>公司始终秉承"创新驱动、质量为本、客户至上"的核心价值观，持续投入研发，坚持技术创新，不断突破技术瓶颈，为客户提供前沿、可靠的半导体产品。</p>
+                </div>
+                
+                <div class="text-center">
+                    <a href="/about/company-profile/" class="btn-primary">了解更多</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技术能力 -->
+        <section class="technology-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-subtitle">技术能力</h2>
+                    <h3 class="section-title">强大的研发实力和技术积累</h3>
+                </div>
+                
+                <div class="technology-grid">
+                    <div class="technology-item">
+                        <div class="tech-icon">🔬</div>
+                        <h4>模拟电路设计</h4>
+                        <p>深厚的模拟电路设计经验，包括低噪声放大器、精密参考源、数据转换器等。</p>
+                    </div>
+                    
+                    <div class="technology-item">
+                        <div class="tech-icon">💡</div>
+                        <h4>MEMS技术</h4>
+                        <p>先进的MEMS传感器设计制造能力，涵盖压力、温度、惯性等多种传感器。</p>
+                    </div>
+                    
+                    <div class="technology-item">
+                        <div class="tech-icon">🛡️</div>
+                        <h4>隔离技术</h4>
+                        <p>电容和磁隔离技术，提供高可靠性的信号和电源隔离解决方案。</p>
+                    </div>
+                    
+                    <div class="technology-item">
+                        <div class="tech-icon">⚡</div>
+                        <h4>功率半导体</h4>
+                        <p>功率器件设计和封装技术，包括硅基和宽禁带半导体功率器件。</p>
                     </div>
                 </div>
             </div>
@@ -283,16 +403,16 @@
                     <div class="footer-info">
                         <a href="#" class="footer-logo">
                             <i class="fas fa-microchip"></i>
-                            <span>ABC科技</span>
+                            <span>未来半导体</span>
                         </a>
                         <p class="footer-contact">
-                            <i class="fas fa-phone"></i> 联系电话: 400-888-9999
+                            <i class="fas fa-phone"></i> 联系电话: +86-21-5080-0000
                         </p>
                         <p class="footer-contact">
-                            <i class="fas fa-envelope"></i> 邮箱: info@abctech.com
+                            <i class="fas fa-envelope"></i> 邮箱: info@futuresemi.com
                         </p>
                         <p class="footer-contact">
-                            <i class="fas fa-map-marker-alt"></i> 地址: 北京市海淀区中关村科技园ABC大厦
+                            <i class="fas fa-map-marker-alt"></i> 地址: 上海市浦东新区张江高科技园区科苑路399号
                         </p>
                     </div>
 
@@ -323,8 +443,8 @@
                         <a href="#">使用条款</a>
                     </div>
                     <div class="copyright">
-                        <p>Copyright © 2025 ABC科技有限公司 版权所有</p>
-                        <p><a href="#">备案号: 京ICP备12345678号-1</a></p>
+                        <p>Copyright © 2025 未来半导体科技有限公司 版权所有</p>
+                        <p><a href="#">备案号: 沪ICP备12345678号-1</a></p>
                     </div>
                 </div>
             </div>

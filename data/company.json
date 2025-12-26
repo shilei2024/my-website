@@ -1,0 +1,207 @@
+{
+  "company": {
+    "name": "未来半导体科技有限公司",
+    "englishName": "Future Semiconductor Technology Co., Ltd.",
+    "legalName": "未来半导体科技有限公司",
+    "abbreviation": "FutureSemi",
+    "founded": "2016-08-15",
+    "headquarters": {
+      "address": "上海市浦东新区张江高科技园区科苑路399号",
+      "city": "上海",
+      "province": "上海",
+      "postalCode": "201203",
+      "country": "中国",
+      "phone": "+86-21-5080-0000",
+      "fax": "+86-21-5080-0001",
+      "email": "info@futuresemi.com",
+      "coordinates": {
+        "latitude": 31.20932,
+        "longitude": 121.59801
+      }
+    },
+    "otherLocations": [
+      {
+        "name": "苏州研发制造中心",
+        "type": "研发与制造",
+        "address": "江苏省苏州市工业园区金鸡湖大道99号",
+        "established": "2023-05-20",
+        "size": "100,000平方米",
+        "focus": ["晶圆制造", "封装测试", "可靠性验证"]
+      },
+      {
+        "name": "深圳销售与技术支持中心",
+        "type": "销售与支持",
+        "address": "广东省深圳市南山区科技园南区",
+        "established": "2019-03-10",
+        "size": "2,000平方米",
+        "focus": ["华南区销售", "客户技术支持", "应用开发"]
+      },
+      {
+        "name": "北京办事处",
+        "type": "政府事务与市场",
+        "address": "北京市海淀区中关村大街11号",
+        "established": "2020-08-05",
+        "focus": ["政府事务", "行业合作", "市场研究"]
+      }
+    ],
+    "stats": {
+      "employees": 856,
+      "engineers": 320,
+      "rdPersonnel": 180,
+      "phdHolders": 45,
+      "annualRevenue": "¥3.2亿元",
+      "patentsFiled": 124,
+      "patentsGranted": 78,
+      "productsInMarket": 70,
+      "customersServed": 500,
+      "annualProduction": "1.2亿颗芯片"
+    },
+    "mission": "为数字世界和现实世界的连接提供先进的芯片解决方案",
+    "vision": "成为全球领先的模拟与混合信号芯片供应商",
+    "values": ["创新驱动", "质量为本", "客户至上", "诚信共赢", "持续改进"],
+    "milestones": [
+      {
+        "year": 2016,
+        "month": 8,
+        "event": "公司成立，专注于传感器芯片研发",
+        "details": "由三位海归博士在上海张江创立，获得天使轮投资"
+      },
+      {
+        "year": 2018,
+        "month": 5,
+        "event": "首款MEMS压力传感器量产",
+        "details": "NPS100系列压力传感器获得AEC-Q100认证，进入汽车供应链"
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "event": "完成B轮融资，建立完整的质量体系",
+        "details": "获得红杉资本领投的1.5亿元B轮融资，建立ISO 9001质量管理体系"
+      },
+      {
+        "year": 2022,
+        "month": 3,
+        "event": "年出货量突破1亿颗，成立汽车电子事业部",
+        "details": "产品进入国内外多家汽车Tier 1供应商，成立专门的汽车电子团队"
+      },
+      {
+        "year": 2024,
+        "month": 6,
+        "event": "苏州12英寸晶圆厂奠基",
+        "details": "开始建设自主的晶圆制造能力，总投资50亿元"
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "event": "苏州晶圆厂投产，进军功率半导体领域",
+        "details": "工厂正式投产，同时发布首款SiC功率器件"
+      }
+    ],
+    "departments": [
+      {
+        "name": "研发中心",
+        "head": "张伟博士",
+        "size": 320,
+        "locations": ["上海", "苏州"],
+        "functions": ["芯片设计", "工艺开发", "系统架构", "算法研究"]
+      },
+      {
+        "name": "质量与可靠性",
+        "head": "李静",
+        "size": 85,
+        "locations": ["上海"],
+        "functions": ["质量管理", "可靠性测试", "失效分析", "认证管理"]
+      },
+      {
+        "name": "市场与销售",
+        "head": "王强",
+        "size": 120,
+        "locations": ["上海", "深圳", "北京"],
+        "functions": ["市场推广", "销售管理", "渠道建设", "客户关系"]
+      },
+      {
+        "name": "运营与生产",
+        "head": "陈明",
+        "size": 300,
+        "locations": ["苏州"],
+        "functions": ["晶圆制造", "封装测试", "供应链管理", "生产计划"]
+      },
+      {
+        "name": "人力资源与行政",
+        "head": "赵琳",
+        "size": 31,
+        "locations": ["上海"],
+        "functions": ["人才招聘", "员工发展", "行政管理", "企业文化"]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "ISO 9001:2015",
+        "issuedBy": "SGS",
+        "issueDate": "2020-03-15",
+        "validUntil": "2026-03-15",
+        "scope": "集成电路设计、销售及相关服务"
+      },
+      {
+        "name": "IATF 16949:2016",
+        "issuedBy": "TÜV Rheinland",
+        "issueDate": "2022-07-20",
+        "validUntil": "2025-07-20",
+        "scope": "汽车电子芯片的设计与销售"
+      },
+      {
+        "name": "ISO 26262 ASIL-D",
+        "issuedBy": "TÜV SÜD",
+        "issueDate": "2025-09-15",
+        "scope": "功能安全流程认证"
+      }
+    ],
+    "awards": [
+      {
+        "year": 2024,
+        "name": "中国半导体创新产品奖",
+        "issuedBy": "中国半导体行业协会",
+        "product": "NPS200超低功耗压力传感器"
+      },
+      {
+        "year": 2023,
+        "name": "张江高科技园区创新企业",
+        "issuedBy": "上海张江高新区管委会"
+      },
+      {
+        "year": 2022,
+        "name": "中国汽车电子优秀供应商",
+        "issuedBy": "中国汽车工程学会"
+      }
+    ]
+  },
+  "leadership": [
+    {
+      "id": "ceo",
+      "name": "张建国",
+      "title": "创始人兼CEO",
+      "photo": "/assets/images/team/ceo.jpg",
+      "bio": "张建国博士拥有清华大学电子工程学士学位和美国加州大学伯克利分校博士学位。在创立未来半导体之前，他在美国国家半导体和德州仪器有超过15年的工作经验。张博士在模拟和混合信号芯片设计领域拥有20多项美国专利。",
+      "education": [
+        "清华大学，电子工程，学士",
+        "加州大学伯克利分校，电子工程，博士"
+      ],
+      "experience": [
+        "德州仪器，高级设计工程师（2005-2012）",
+        "美国国家半导体，设计经理（2012-2016）",
+        "未来半导体，创始人兼CEO（2016-至今）"
+      ],
+      "expertise": ["模拟电路设计", "MEMS传感器", "汽车电子", "公司战略"],
+      "email": "zhang.jianguo@futuresemi.com",
+      "linkedin": "https://linkedin.com/in/jianguozhang"
+    },
+    {
+      "id": "cto",
+      "name": "李敏",
+      "title": "联合创始人兼CTO",
+      "photo": "/assets/images/team/cto.jpg",
+      "bio": "李敏博士毕业于上海交通大学微电子学院，后在德国慕尼黑工业大学从事博士后研究。她在传感器技术和信号处理算法方面有深厚积累，主导了公司多款核心产品的研发工作。",
+      "email": "li.min@futuresemi.com"
+    }
+  ]
+}

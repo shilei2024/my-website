@@ -300,6 +300,126 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // 12. 数字计数器动画
+    const counterElements = document.querySelectorAll('[data-counter]');
+    if (counterElements.length > 0) {
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+                    const target = parseInt(element.getAttribute('data-counter'));
+                    const suffix = element.getAttribute('data-suffix') || '';
+                    const duration = 2000; // 2秒
+                    const step = target / (duration / 16); // 60fps
+                    let current = 0;
+                    
+                    const updateCounter = () => {
+                        current += step;
+                        if (current < target) {
+                            element.textContent = Math.floor(current) + suffix;
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            element.textContent = target + suffix;
+                        }
+                    };
+                    
+                    updateCounter();
+                    counterObserver.unobserve(element);
+                }
+            });
+        }, observerOptions);
+        
+        counterElements.forEach(element => {
+            counterObserver.observe(element);
+        });
+    }
+    
+    // 13. 新闻分类标签功能
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    if (categoryTabs.length > 0) {
+        categoryTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                const category = this.getAttribute('data-category');
+                
+                // 更新活动标签
+                categoryTabs.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                
+                // 这里可以添加根据分类筛选新闻的逻辑
+                console.log(`切换到分类: ${category}`);
+                
+                // 在实际应用中，这里应该筛选显示对应分类的新闻
+                // 例如：filterNewsByCategory(category);
+            });
+        });
+    }
+    
+    // 14. 新闻订阅表单
+    const subscribeForm = document.querySelector('.subscribe-form');
+    if (subscribeForm) {
+        subscribeForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value.trim();
+            
+            if (!email) {
+                alert('请输入邮箱地址');
+                return;
+            }
+            
+            if (!isValidEmail(email)) {
+                alert('请输入有效的邮箱地址');
+                return;
+            }
+            
+            // 模拟订阅成功
+            emailInput.value = '';
+            alert('订阅成功！感谢您关注未来半导体。');
+            
+            // 在实际应用中，这里应该发送订阅请求到服务器
+            // 例如：subscribeToNewsletter(email);
+        });
+    }
+    
+    // 邮箱验证函数
+    function isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+    
+    // 15. 产品搜索功能
+    const searchInput = document.querySelector('.search-input');
+    const searchBtn = document.querySelector('.search-btn');
+    
+    if (searchInput && searchBtn) {
+        searchBtn.addEventListener('click', performSearch);
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+        
+        function performSearch() {
+            const searchTerm = searchInput.value.trim();
+            if (!searchTerm) {
+                alert('请输入搜索关键词');
+                return;
+            }
+            
+            console.log(`搜索: ${searchTerm}`);
+            // 在实际应用中，这里应该执行搜索并显示结果
+            // 例如：searchProducts(searchTerm);
+            
+            // 临时提示
+            alert(`搜索 "${searchTerm}" 的功能正在开发中...`);
+        }
+    }
+    
     // 控制台日志（开发时有用）
     console.log('网站初始化完成！');
 });
